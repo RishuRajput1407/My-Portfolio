@@ -9,9 +9,9 @@ export const WhatsAppButton = () => {
         className="block hover:opacity-90 transition-opacity"
       >
         <img 
-          src="/src/img/whatsApp_icon.png" 
+          src="https://static.vecteezy.com/system/resources/previews/021/460/383/original/whatsapp-logo-free-png.png" 
           alt="WhatsApp" 
-          className="w-12 h-12"
+          className="w-14 h-14"
         />
       </a>
     </div>

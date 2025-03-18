@@ -2,24 +2,24 @@
 export const Services = () => {
   const services = [
     {
-      icon: "/src/img/Untitled_design-removebg-preview.png",
+      icon: "/img/Untitled_design-removebg-preview.png",
       title: "Pixel-Perfect Design",
       description: "Crafting clean, precise, and responsive designs that ensure flawless alignment and consistency across all devices."
     },
     {
-      icon: "/src/img/Untitled_design__2_-removebg-preview.png",
+      icon: "/img/Untitled_design__2_-removebg-preview.png",
       title: "High-Quality Development",
       description: "Building fast, optimized, and user-friendly web applications with a strong focus on performance and best practices."
     },
     {
-      icon: "/src/img/Untitled_design__1_-removebg-preview.png",
+      icon: "/img/Untitled_design__1_-removebg-preview.png",
       title: "Creative & Interactive UI",
       description: "Bringing innovative and engaging UI/UX ideas to life, enhancing user experience with smooth interactions and modern aesthetics."
     }
   ];
 
   return (
-    <section className="py-20 px-6 lg:px-24 bg-soft-purple">
+    <section className="py-20 px-6 lg:px-24 bg-soft-purple ">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {services.map((service, index) => (
           <div 

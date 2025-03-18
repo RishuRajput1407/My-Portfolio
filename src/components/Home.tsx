@@ -2,12 +2,13 @@
 import { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 
+
 export const Home = () => {
   const el = useRef(null);
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Frontend Developer', 'Web Designer', 'UI/UX Designer'],
+      strings: ['Frontend Developer', 'Web Designer', 'UI/UX Designer', 'Full-Stack MERN Developer.'],
       typeSpeed: 100,
       backSpeed: 60,
       loop: true
@@ -19,7 +20,8 @@ export const Home = () => {
   }, []);
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-between px-6 lg:px-24 py-20 bg-gradient-to-r from-gradient-start to-gradient-end text-white">
+    <section id="home" className="min-h-screen flex flex-col-reverse lg:flex-row items-center justify-between px-6 lg:px-24 py-20 bg-gradient-to-r from-gradient-start to-gradient-end text-white">
+
       <div className="flex-1 max-w-2xl">
         <h3 className="text-xl mb-2 text-soft-yellow">Hello, I'm</h3>
         <h1 className="text-5xl font-bold mb-4 text-white">Risu Kumar</h1>
@@ -37,7 +39,7 @@ export const Home = () => {
             <i className='bx bxl-twitter'></i>
           </a>
           <a 
-            href="https://www.linkedin.com/in/rishu-singh-10b18923a/" 
+            href="www.linkedin.com/in/risu-kumar-358237245" 
             className="text-2xl hover:text-soft-yellow transition-colors"
           >
             <i className='bx bxl-linkedin'></i>
@@ -62,7 +64,7 @@ export const Home = () => {
   
   {/* Image with hover rotation and shadow */}
       <img 
-         src="/src/img/photo1.png" 
+         src="/img/photo1.png"
           alt="Risu Kumar" 
           className="max-w-xs mx-auto rounded-lg shadow-2xl transform transition-transform duration-500 hover:rotate-y-6 hover:scale-110 hover:shadow-blue-500 hover:shadow-2xl"
   />

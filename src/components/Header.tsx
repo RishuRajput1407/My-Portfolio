@@ -56,7 +56,7 @@ export const Header = () => {
               asChild
               className="bg-gray-900 text-white hover:bg-gray-800 transition-colors"
             >
-              <a href="/public/resume.pdf" download>
+              <a href="/resume.pdf" download>
                 Download CV
               </a>
             </Button>

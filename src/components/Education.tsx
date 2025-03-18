@@ -2,13 +2,13 @@
 export const Education = () => {
   const educationItems = [
     {
-      image: "/src/img/school.png",
+      image: "/img/school.png",
       title: "Bachelor of Computer Application",
       institution: "Manipal University Jaipur",
       period: "2022-2025 | Complete"
     },
     {
-      image: "/src/img/cetpa.png",
+      image: "/img/cetpa.png",
       title: "Full Stack Mern Developer",
       institution: "CEPTA Infotech Pvt. Ltd",
       period: "2024-2025 | Pursuing"

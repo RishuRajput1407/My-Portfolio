@@ -2,42 +2,42 @@
 export const Projects = () => {
   const projects = [
     {
-      image: "/src/img/pngtree-shining-bright-light-bulb-png-image_6136095.png",
+      image: "/img/pngtree-shining-bright-light-bulb-png-image_6136095.png",
       title: "Bulb App",
       description: "A modern Bulb application with a clean UI built using Html, CSS and JavaScript",
       link: "https://rishurajput1407.github.io/Bulb_project/",
       tech: ["Html", "CSS","JavaScript"]
     },
     {
-      image: "/src/img/website-icon-11.png",
+      image: "/img/website-icon-11.png",
       title: "grow & shine",
       description: "A portfolio showcasing my journey as a frontend developer, featuring modern UI/UX design and interactive web experiences.",
       link: "https://rishurajput1407.github.io/project-1/",
       tech: ["Html", "CSS"]
     },
     {
-      image: "/src/img/Calculator_512.png",
+      image: "/img/Calculator.png",
       title: "Calculator App",
       description: "A simple and interactive calculator app built with JavaScript for quick and accurate calculations.",
       link: "https://rishurajput1407.github.io/Project-calculator/",
       tech: ["Html", "CSS", "JavaScript"]
     },
     {
-      image: "/src/img/icon.png",
+      image: "/img/icon.png",
       title: "Text-To-Speech-Converter",
       description: "A text-to-speech converter using the Web Speech API for seamless audio narration.",
       link: "https://github.com/RishuRajput1407/Text-To-Speech-Converter_Project.git",
       tech: ["Html", "Web Speech API", "AI"]
     },
     {
-      image: "/src/img/tic-tac-toe-xo-game-260nw-2374366691.png",
+      image: "/img/tic-tac-toe-xo-game-260nw-2374366691.png",
       title: "Tic Tac Toe",
       description: "A classic Tic Tac Toe game with a modern UI and interactive gameplay.",
       link: "https://github.com/RishuRajput1407/Tic-Tac-Toe-Game.git",
       tech: ["Html", "CSS", "JavaScript"]
     },
     {
-      image: "/src/img/images.png",
+      image: "/img/images.png",
       title: "Weather-App",
       description: "A weather app that provides real-time updates using the Weather API and a sleek user interface.",
       link: "https://github.com/RishuRajput1407/Weather-API.git",
@@ -45,7 +45,7 @@ export const Projects = () => {
     },
   
     {
-      image: "/src/img/time-clock-icon-clock-clipart-clock-icons-alarm-png.png",
+      image: "/img/time-clock-icon-clock-clipart-clock-icons-alarm-png.png",
       title: "Clock-Alam",
       description: "A functional alarm clock app with a sleek design and customizable alerts.",
       link: "https://rishurajput1407.github.io/Alarm_Clock_Project/",
@@ -53,7 +53,7 @@ export const Projects = () => {
     },
   
     {
-      image: "/src/img/food-express-logo-fast-food_57516-22.jpg",
+      image: "/img/food-express-logo-fast-food_57516-22.jpg",
       title: "FoodExpress_Project",
       description: "An interactive food delivery platform with a user-friendly interface and smooth navigation.",
       link: "https://rishurajput1407.github.io/FoodExpress_Project/",
@@ -61,7 +61,7 @@ export const Projects = () => {
     },
   
     {
-      image: "/src/img/react-logo@3x.png",
+      image: "/img/react-logo@3x.png",
       title: "E-Shop_Project",
       description: "A sleek and responsive e-commerce platform built with React for a seamless shopping experience.",
       link: "https://github.com/RishuRajput1407/E-commerce-project.git",

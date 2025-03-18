@@ -1,3 +1,4 @@
+// import about from '../img/about.jpg';
 
 export const About = () => {
   return (
@@ -5,7 +6,7 @@ export const About = () => {
       <div className="flex flex-col lg:flex-row items-center gap-12">
         <div className="flex-1">
           <img 
-            src="/src/img/about.jpg" 
+            src="/img/about.jpg"
             alt="About"
             className="rounded-lg shadow-xl max-w-lg mx-auto"
           />

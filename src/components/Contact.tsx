@@ -1,4 +1,5 @@
 
+
 export const Contact = () => {
   return (
     <section id="contact" className="py-20 px-6 lg:px-24">
@@ -8,7 +9,7 @@ export const Contact = () => {
       <div className="flex flex-col lg:flex-row items-center gap-12 max-w-6xl mx-auto">
         <div className="flex-1">
           <img 
-            src="/src/img/contact1.png" 
+            src="/img/contact1.png"
             alt="Contact"
             className="max-w-lg mx-auto"
           />

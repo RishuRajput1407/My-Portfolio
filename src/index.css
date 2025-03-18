@@ -27,6 +27,16 @@
     --radius: 0.75rem;
   }
 }
+@layer base {
+  html, body {
+    @apply overflow-x-hidden;
+  }
+}
+@layer components {
+  .container {
+    @apply w-full max-w-screen-xl mx-auto px-4;
+  }
+}
 
 @layer base {
   * {

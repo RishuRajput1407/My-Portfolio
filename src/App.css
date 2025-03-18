@@ -4,6 +4,12 @@
   padding: 2rem;
   text-align: center;
 }
+/* Prevent horizontal scrolling */
+body {
+  overflow-x: hidden;
+}
+
+
 
 .logo {
   height: 6em;
